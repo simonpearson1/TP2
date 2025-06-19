@@ -47,54 +47,131 @@
         </nav>
     </header>
 
-
-    <!-- Codigo del Footer-->
-    <footer class="bg-dark text-white">
-        <div class="subscription-bar py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h5 class="mb-0">¿Quieres recibir nuestras novedades?</h5>
-                        <p class="mb-0">Suscríbete para recibir información sobre nuevos productos y ofertas especiales.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <form class="subscription-form d-flex" id="formulario-suscripcion">
-                            <input type="email" class="form-control" placeholder="Tu correo electrónico" required>
-                            <button type="submit" class="btn btn-primary ms-2">Suscribirse</button>
-                        </form>
-                    </div>
-                </div>
+    <main>
+        <!-- Esta es la seccion del titulo de la pagina-->
+        <header id="inicio" class="hero-section">
+            <div class="container text-center text-white py-5">
+                <h1>Bienvenido a la Tienda Oficial de la Selección Argentina</h1>
+                <p>Encuentra toda la indumentaria oficial del campeón del mundo</p>
             </div>
-        </div>
-
-        <div class="footer-content py-4">
+        </header>
+        
+        <!-- Este codigo es la informacion sobre la tienda, tiene informacion sobre la seleccion y los datos de la tienda -->
+        <section id="info-seleccion" class="py-5 bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h5>Contacto</h5>
-                        <p>Email: info@tiendaseleccion.com</p>
-                        <p>Teléfono: (123) 456-7890</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Síguenos</h5>
-                        <div class="social-links">
-                            <a href="#" class="text-white me-2"><i class="fab fa-facebook"></i></a>
-                            <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Historia</h3>
+                                <p class="card-text">La Selección Argentina es una de las más exitosas del mundo, con 3 Copas del Mundo (1978, 1986 y 2022), 15 Copas América y 2 Copas Confederaciones. Fundada en 1893, ha sido cuna de grandes jugadores como Maradona, Messi, Kempes y muchos más.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <h5>Enlaces Rápidos</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#productos" class="text-white">Productos</a></li>
-                            <li><a href="#info-seleccion" class="text-white">La Selección</a></li>
-                            <li><a href="#info-tienda" class="text-white">Información</a></li>
-                        </ul>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Estadio</h3>
+                                <p class="card-text">El Estadio Monumental Antonio Vespucio Liberti, ubicado en Buenos Aires, es el estadio oficial de la Selección Argentina. Con capacidad para más de 83,000 espectadores, es el estadio más grande del país y ha sido testigo de grandes momentos del fútbol argentino.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Plantel Actual</h3>
+                                <p class="card-text">El actual plantel de la Selección Argentina está liderado por Lionel Messi, junto a grandes jugadores como Julián Álvarez, Enzo Fernández, Alexis Mac Allister y Emiliano Martínez. Bajo la dirección técnica de Lionel Scaloni, el equipo ha alcanzado su máximo esplendor.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <section id="info-tienda" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Direcciones</h3>
+                                <p class="card-text">Tienda Principal: Av. del Libertador 8000, Buenos Aires, Argentina.<br>
+                                Opción de compra online: Compra online y retirá en tienda o recibe en tu domicilio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Horarios de Atención</h3>
+                                <p class="card-text">Lunes a Viernes: 10:00 a 18:00 hs<br>
+                                Sábados: 10:00 a 14:00 hs<br>
+                                Atención al cliente disponible las 24 horas a través de nuestra tienda online.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Opciones de Envío</h3>
+                                <p class="card-text">Realizamos envíos a todo el país con entrega en 24-48 hs en CABA y GBA.<br>
+                                Envíos internacionales disponibles a través de nuestro servicio de correo internacional.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Codigo del Footer-->
+        <footer class="bg-dark text-white">
+            <div class="subscription-bar py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h5 class="mb-0">¿Quieres recibir nuestras novedades?</h5>
+                            <p class="mb-0">Suscríbete para recibir información sobre nuevos productos y ofertas especiales.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <form class="subscription-form d-flex" id="formulario-suscripcion">
+                                <input type="email" class="form-control" placeholder="Tu correo electrónico" required>
+                                <button type="submit" class="btn btn-primary ms-2">Suscribirse</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-content py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5>Contacto</h5>
+                            <p>Email: info@tiendaseleccion.com</p>
+                            <p>Teléfono: (123) 456-7890</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Síguenos</h5>
+                            <div class="social-links">
+                                <a href="#" class="text-white me-2"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Enlaces Rápidos</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#productos" class="text-white">Productos</a></li>
+                                <li><a href="#info-seleccion" class="text-white">La Selección</a></li>
+                                <li><a href="#info-tienda" class="text-white">Información</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
 
 
 
