@@ -22,3 +22,78 @@
     height: 40px;
     width: auto;
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 76px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 76px;
+    margin: 0;
+}
+
+.subscription-bar {
+    background-color: #1a237e;
+    color: white;
+}
+
+.subscription-form {
+    max-width: 100%;
+}
+
+.subscription-form .form-control {
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+}
+
+.subscription-form .btn {
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.subscription-form .btn:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.footer-content {
+    background-color: #212529;
+}
+
+.social-links a {
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #28a745 !important;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    margin-top: -76px;
+    margin-bottom: 30px;
+}
+
+.btn-agregar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-agregar:hover {
+    background-color: #218838;
+}
